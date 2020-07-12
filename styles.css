@@ -227,32 +227,35 @@ body{
    /* background-color: #2196F3;*/
     padding: 10px;
     margin-top: -50px;
-  }
+}
 
-  .item1{
+.item1{
     border: 1px solid black;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     text-align: center;
+    font-size: 1.2em;
 
-  }
+}
 
-  .item2{
+.item2{
     border: 1px solid black;
     text-align: center;
+    font-size: 1.2em;
 
-  }
+}
 
-  .item3{
+.item3{
     border: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     text-align: center;
+    font-size: 1.2em;
 
-  }
+}
 
 
-  .experience-header{
+.experience-header{
       display: flex;
     justify-content: center;
     margin-top:30px;
@@ -284,13 +287,114 @@ body{
     font-size: 30px;
   }*/
 
-  .third-column{
+.third-column{
       display:flex;
       justify-content: space-evenly;
-  }
+    }
 
-  .text{
+.text{
     line-height:1.8;
     font-size:1.1em;
-  }
+}
   
+
+/* Section 3*/
+
+.section3{
+    
+    background-color:white; 
+    margin-top:100px;
+    height:2300px;
+    border-radius: 40px;
+    padding: 80px;
+    justify-content: center;
+    /*position: relative;
+    z-index: 1;*/ 
+}
+
+.session-header{
+    display: flex;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.session1{
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:-90px;
+    color:lightgrey;
+    position:relative;
+    z-index:1;
+    padding-left:-200px;
+}
+
+.session2{
+    font-size:1.2em;
+    position:absolute;
+    z-index: 2;
+    margin-top:-30px;
+    padding-left:20px;
+}
+
+.tutor{
+    display: flex;
+    justify-content: stretch;
+    margin-bottom: 35px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    /*grid-gap: 3px;*/
+}
+
+.inner-container {
+    padding-right: 90px;
+    padding-left: 10px;
+    background:lightyellow;
+    text-align:start;
+    padding-top:15px;
+
+
+}
+
+.inner-container1 {
+    grid-column-start:2;
+      grid-column-end:5;
+      margin-top: 15px;
+      margin-left:40px;
+  
+    }
+
+.pix{
+    margin-top:30px
+}
+       
+   /* }
+    border:1px;
+    height:2.3em;
+    margin-left:15px;
+    width: inherit;
+    background-color:lightgrey;
+    padding-bottom: 20px;
+    padding-left:10px;
+    margin-top: -60px;
+    text-align: start;
+    border-radius:40px;
+
+
+.inner-session{
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+    
+    
+}
+*/
