@@ -154,13 +154,13 @@ body{
     margin-top: 26px;
     line-height: 1.8em;
     font-size:1.2em;
-    width:75%;
+     width:75%;
 }
 
 .start-button{
     margin-top: 30px;
     margin-left:10px;
-    font-size:0.8em;
+    font-size:1em;
     width: 270px;
     padding :20px;
     padding-bottom: 30px;;
@@ -172,6 +172,70 @@ body{
     background-color:#ff6632;
     color:white;
 }
+
+/*ABOUT-SECTION*/
+.about-section{
+    background-color:white; 
+    margin-top:200px;
+    margin-left: 80px;
+    margin-right:80px;
+    height:400px;
+    border-radius: 20px;
+    padding: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.second-image{
+    width: 40%;
+    margin-top: -190px;
+    position: absolute;
+    z-index: 2;
+}
+
+.about-header{
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+
+.about-parent{
+
+}
+.about{
+    font-size: 5em;
+    font-weight: bolder;
+    margin-top:-138px;
+    margin-left:500px;
+    color:lightgrey;
+    /* position:relative; */
+    z-index:1;
+    padding-left:-200px;
+}
+
+.about-us{
+    font-size:1.4em;
+    font-weight: bolder;
+    position:absolute;
+    z-index: 2;
+    margin-top:-155px;
+    margin-left: 500px;
+    padding-left:60px;
+}
+
+.third-image{
+    height:20%;
+    margin-top: -70px;
+    margin-right:30px;
+}
+
+.about-text{
+    margin-top: -17px;
+    line-height:1.8;
+    font-size:1.1em;
+}
+
+
 
     
 
@@ -223,22 +287,24 @@ body{
     .SECTION1{
         display:flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         background-color:white; 
         margin-top:-200px;
         margin-bottom:20px;
         margin-left: 85px;
-        margin-right:55px;
+        margin-right:70px;
         height:100%;
         border-radius: 20px;
-        padding: 50px;
+        padding: 70px;
+        padding-bottom:40px;
         position: relative;
         z-index: 2;
+        box-shadow: 5px 5px 5px 5px red;
       
     }
 
     .first-image{
-        display:block;
+        display:none;
         width: 130%;
         height:110%;
         margin-right:200px;
@@ -254,9 +320,11 @@ body{
 
     .product-design{
         margin-right: 10px;
+        margin-top: -45px;
         font-size: .8em;
         font-weight: bolder;
         width:150%;
+    
     }
 
     .product-factory{
@@ -265,13 +333,14 @@ body{
         color:gray;
         position: absolute;
         z-index: 2;
+    
     }
 
     .product-text{
         margin-top: -45px;
         line-height: 1.1em;
         font-size:.8em;
-        width:130%;
+        width:150%;
     }
 
     .UIUX{
@@ -281,17 +350,17 @@ body{
         height:100px;
         font-size: 3em;
         font-weight: bolder;
-        margin-top:-10px;
+        margin-top:25px;
         color:lightgrey;
     }
 
     .start-button{
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: -35px;
         font-size:0.6em;
         width: 140px;
-        padding :13px;
-        padding-bottom: 20px;
+        padding :3px;
+        padding-bottom: 5px;
         border-top-left-radius:10px;
         border-top-right-radius:10px;
         border-bottom-left-radius:10px;
@@ -299,7 +368,108 @@ body{
         background-color:#ff6632;
         color:white;
     }
+
+    /*ABOUT-SECTION*/
+
+    .about-section{
+    background-color:white; 
+    margin-top:18%;
+    margin-left: 80px;
+    margin-right:80px;
+    height:100%;
+    border-radius: 20px;
+    padding: 70px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 5px 5px 5px 5px red;
+      
+}
+.second-image{
+    display:none ;
+    width: 40%;
+    margin-top: -190px;
+    position: absolute;
+    z-index: 2;
+}
+
+.about-header{
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px;
+    margin-left: 20px;
+
+
+}
+
+.about-text{
+    margin-top: 5%;
+    margin-left:.1%;
+    padding-left:-35px;
+    line-height:1.3em;
+    font-size:0.9em;
+    width:120%;
+
+}
+
+
+.about-parent{
+    margin-left:-500px;
     
+} 
+
+.about{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top:-120px;
+    margin-left:500px;
+    color:lightgrey;
+    /* position:relative; */
+    z-index:1;
+    padding-left:-200px;
+}
+
+.about-us{
+    font-size:.6em;
+    font-weight: bolder;
+    position:absolute;
+    z-index: 2;
+    margin-top:-65px;
+    margin-left: 470px;
+    padding-left:60px;
+}
+
+.third-image{
+    height:10%;
+    margin-top: -70px;
+    margin-right:-35px;
+}
+
+.facebook{
+    margin-top: -20px;
+    height:50%;
+}
+.facebook img{
+    width:50%;
+    padding-bottom: 2%;
+}
+
+.twitter{
+    margin-top: -10px;
+    height:50%;
+}
+.twitter img{
+    width:50%;
+    padding-bottom: 2%;
+}
+
+.insta{
+    margin-top: -10px;
+    height:50%;
+}
+.insta img{
+    width:50%;
+    padding-bottom: 2%;
+}
     
 }
 
